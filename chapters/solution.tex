@@ -1,0 +1,195 @@
+\newcommand{\Cross}{\mathbin{\tikz [x=1.4ex,y=1.4ex,line width=.2ex] \draw (0,0) -- (1,1) (0,1) -- (1,0);}}%
+%\renewcommand{\theequation}{\theenumi}
+%\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+%\numberwithin{equation}{enumi}
+%	
+%	
+%
+%\item $\triangle AMC \cong \triangle DMB$  by SAS congruency $\because$
+%\begin{enumerate}
+%\item $AM = BM$
+%\item $CM = DM$
+%\item $\phase{AMC}$ = $\phase{DMB}$ ( Vertically Opposite Angles)
+%\end{enumerate}
+%%
+%\item From \eqref{eq:constr_b}, \eqref{eq:constr_c} and \eqref{eq:constr_d},
+%%
+%%
+%\begin{align}
+%\brak{\vec{D}-\vec{B}}^T
+%\brak{\vec{B}-\vec{C}} &= \myvec{0 & b}\myvec{a \\ 0} = 0
+%\\
+%\implies BD \perp BC
+%\end{align}
+%%
+%\item From \eqref{eq:constr_a}, \eqref{eq:constr_b}, \eqref{eq:constr_c} and \eqref{eq:constr_d},
+%\begin{align}
+%\norm{\vec{A}-\vec{B}} &= \norm{\myvec{-a \\ b}}
+%\\
+%\norm{\vec{C}-\vec{D}} &= \norm{\myvec{-a \\ -b}}
+%\\
+%\implies \norm{\vec{A}-\vec{B}} &= \norm{\vec{C}-\vec{D}}\\
+%\text{or, } AB &=CD
+%\label{eq:solution_abcd}
+%\end{align}
+%%
+%From RHS congruence,  $\triangle ACB \cong  \triangle DCB$.
+%\item From \eqref{eq:solution_abcd}, noting that $\vec{M}$ is the mid point of both $AB$ and $CD$, 
+%\begin{align}
+%CM = \frac{1}{2}CD =\frac{1}{2} AB
+%\end{align}
+%
+%
+%
+%\end{enumerate}
+
+
+%
+%The area of a parallelogram can be defined as:\\
+%$Area$ = $\abs{\vec{a} \Cross \vec{b}} $
+%
+%%\begin{equation}
+%%\begin{aligned}
+%%    \vec{a} \Cross \vec{b} = \begin{vmatrix}
+%%      $\^i$       & $\^j$    & $\^k$ \\ 
+%%      3       & 1    & 4 \\
+%%      1       & -1     & 1 \\
+%%      
+%%    \end{vmatrix}
+%%\end{aligned}
+%%\end{equation}
+%%So, $\vec{a} \Cross \vec{b}$ = 5\^i + \^j - 4\^k.\\
+%%
+%%
+%%Now, $\abs{\vec{a} \Cross \vec{b}} $ = $\sqrt{5^2 + 1^2 + (-1)^2}$\\
+%%\text{or, } $\abs{\vec{a} \Cross \vec{b}} $ = $\sqrt{27}$\\
+%%\text{or, } $Area$ = $\sqrt{27}$\\
+%%Hence, the area of the parallelogram in the above problem statement is $\sqrt{27}$.\\
+%%\text{or, }\\
+%The cross-product can be calculated as:\\
+%$\vec{a} \Cross \vec{b} $ = $[\vec{a}]_x \vec{b}$
+%where $[\vec{a}]_x$ = $\vec{a} \Cross $ \^e 
+%and \^e is the unit vector. \\
+%If $\vec{a}$ can be expressed as:\\
+%\begin{equation}
+%\begin{aligned}
+%      \vec{a} = \begin{pmatrix}
+%      a_1 \\ 
+%      a_2 \\
+%      a_3 \\
+%      
+%    \end{pmatrix} = \begin{pmatrix}
+%      3 \\ 
+%      1 \\
+%      4 \\
+%      
+%    \end{pmatrix}
+%\end{aligned}
+%\end{equation} and 
+%\begin{equation}
+%\begin{aligned}
+%      \vec{b} = \begin{pmatrix}
+%      b_1 \\ 
+%      b_2 \\
+%      b_3 \\
+%      
+%    \end{pmatrix} = \begin{pmatrix}
+%      1 \\ 
+%      -1 \\
+%      1 \\
+%      
+%    \end{pmatrix}
+%\end{aligned}
+%\end{equation}
+%Then $[\vec{a}]_x$ can be expressed as:\\
+%%$[\vec{a}]_x$ = $ [\vec{a} \Cross $  \^i $\quad$  $\vec{a} \Cross $ \^j $\quad$ $\vec{a} \Cross $ \^k] 
+%\begin{equation}
+%\begin{aligned}
+%       \text{or, }[\vec{a}]_x = \begin{pmatrix}
+%      0       & -a_3    & a_2 \\ 
+%      a_3       & 0    & -a_1 \\
+%      -a_2       & a_1     & 0 \\
+%      
+%    \end{pmatrix}= \begin{pmatrix}
+%      0       & -4    & 1 \\ 
+%      4       & 0    & -3 \\
+%      -1       & 3     & 0 \\
+%      
+%    \end{pmatrix}
+%\end{aligned}
+%\end{equation}
+%So, the $[\vec{a}]_x \vec{b}$ can be calculated as:\\
+%\begin{equation}
+%\begin{aligned}
+%      [\vec{a}]_x \vec{b} = \begin{pmatrix}
+%      0       & -4    & 1 \\ 
+%      4       & 0    & -3 \\
+%      -1       & 3     & 0 \\
+%      
+%    \end{pmatrix} \begin{pmatrix}
+%      1\\ 
+%      -1\\
+%      1\\
+%      
+%    \end{pmatrix} = \begin{pmatrix}
+%      5\\ 
+%      1\\
+%      -4\\
+%      
+%    \end{pmatrix} 
+%\end{aligned}
+%\end{equation}
+%%\text{or, } $[\vec{a}]_x \vec{b}$ = 5\^i + \^j - 4\^k.\\
+%Now, $\abs{[\vec{a}]_x \vec{b}} $ = $\sqrt{5^2 + 1^2 + (-1)^2}$\\
+%\text{or, } $\abs{[\vec{a}]_x \vec{b}} $ = $\sqrt{27}$\\
+%\text{or, } $Area$= $\abs{\vec{a} \Cross \vec{b}} $ = $\abs{[\vec{a}]_x \vec{b}} $ = $\sqrt{27}$\\
+%Hence, the area of the parallelogram in the above problem statement is $\sqrt{27}$.\\
+
+From the problem statement, we got the two points:\\
+
+\begin{equation}
+\begin{aligned}
+      \vec{P} = \begin{pmatrix}
+      1\\ 
+      -3\\
+      4\\
+  
+    \end{pmatrix}
+\end{aligned}
+\end{equation}
+
+\begin{equation}
+\begin{aligned}
+      \vec{Q} = \begin{pmatrix}
+      -4\\ 
+      1\\
+      2\\
+  
+    \end{pmatrix}
+\end{aligned}
+\end{equation}
+The distance between the two points is given by:\\
+$d$ = $\norm{\vec{P} - \vec{Q}}$\\
+\text{or,} 
+\begin{equation}
+\begin{aligned}
+      d = \norm{\begin{pmatrix}
+      1\\ 
+      -3\\
+      4\\
+  
+    \end{pmatrix} - \begin{pmatrix}
+      -4\\ 
+      1\\
+      2\\
+  
+    \end{pmatrix}} = \norm{\begin{pmatrix}
+      5\\ 
+      -4\\
+      2\\
+  
+    \end{pmatrix}}
+\end{aligned}
+\end{equation}
+$\implies d$ = $\sqrt{5^2 + (-4)^2 + 2^2}$\\
+$\implies d$ = 3$\sqrt{5}$
